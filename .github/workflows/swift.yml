@@ -23,7 +23,7 @@ jobs:
       run: brew install sdl2
     - name: Get Path and Show Files
       run: |
-        ls
+        echo "$(ls)"
     - name: Build
       run: swift build -v
     - name: Run tests
