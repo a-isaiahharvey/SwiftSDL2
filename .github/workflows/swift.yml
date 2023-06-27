@@ -21,6 +21,9 @@ jobs:
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     - name: Install sdl2
       run: brew install sdl2
+    - name: Get Path and Show Files
+      run: |
+        pwd && ls
     - name: Build
       run: swift build -v
     - name: Run tests
