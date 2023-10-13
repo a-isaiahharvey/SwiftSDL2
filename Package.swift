@@ -25,8 +25,5 @@ let package = Package(
         .apt(["libsdl2-dev"]),
       ]
     ),
-    .testTarget(
-      name: "SwiftSDL2Tests",
-      dependencies: ["SwiftSDL2"]),
   ]
 )
