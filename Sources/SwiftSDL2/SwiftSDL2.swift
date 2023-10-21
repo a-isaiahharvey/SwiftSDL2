@@ -1,4 +1,4 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
-import CSDL2
+@_exported import CSDL2
